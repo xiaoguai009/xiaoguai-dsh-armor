@@ -1,0 +1,42 @@
+{
+  "name": "xiaoguai-armor",
+  "version": "0.4.3",
+  "description": "小怪破甲",
+  "license": "CC-BY-NC-SA-4.0",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./client.js": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "prompts",
+    "tests",
+    "scripts",
+    "LICENSE",
+    "THIRD-PARTY-NOTICES.md"
+  ],
+  "scripts": {
+    "harness:check": "node --check index.js && node --check client.js",
+    "verify": "node scripts/verify_plugin.mjs"
+  },
+  "dsh": {
+    "id": "xiaoguai-armor",
+    "name": "小怪破甲",
+    "version": "0.4.3",
+    "permissions": "系统提示词注入, 客户端状态条",
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

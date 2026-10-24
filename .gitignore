@@ -1,0 +1,28 @@
+# 备份与临时文件
+*.bak
+*.bak-*
+*.dshbak
+*.log
+*.tmp
+*.partial
+
+# 运行环境
+node_modules/
+runtime/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# 本地 DSH 配置（绝不入库）
+.dsh/
+config.toml
+auth.json
+credentials.json
+.credentials.yaml
+*.credentials.yaml
+.env
+.env.*

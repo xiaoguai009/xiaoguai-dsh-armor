@@ -6,7 +6,7 @@
 
 `xiaoguai-armor` · Windows · v0.4.3
 
-[快速开始](#快速开始) · [注入原理](#注入原理) · [目录结构](#目录结构) · [FAQ](#faq)
+[快速开始](#快速开始) · [注入原理](#注入原理) · [目录结构](#目录结构) · [FAQ](#faq) · [交流与支持](#contact)
 
 </div>
 
@@ -135,3 +135,37 @@ node scripts/verify_plugin.mjs
 「小怪破甲已激活」只表示插件已加载。实际回复仍受所选模型、其他提示词与 DSH 版本影响。
 
 本仓库只包含本地提示词配置插件，不含模型权重、不修改 DSH 程序本体、不涉及账号或 API 密钥。请在你自己的环境里使用。
+<a id="contact"></a>
+
+## Contact / 交流与支持
+
+- **TG 频道**：[频道 @XGYYDS789](https://t.me/XGYYDS789)
+- **QQ 群**：Ai逆向技术交流群 · **1019953986**
+
+点击下方图片可查看完整原图。
+
+<table>
+  <tr>
+    <th align="center" width="50%">赞赏支持</th>
+    <th align="center" width="50%">QQ 群交流</th>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="assets/support.jpg"><img src="assets/support.jpg" alt="赞赏支持二维码原图" width="320"></a>
+    </td>
+    <td align="center" valign="top">
+      <a href="assets/qq-group.jpg"><img src="assets/qq-group.jpg" alt="Ai逆向技术交流群，群号 1019953986" width="320"></a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 激活确认口令
+
+在 DSH 新会话里发激活词「小怪」，预期只回复以下两行；中间仅一个换行，不添加空行、缩进或其他文字。第二行频道与 QQ 群之间恰好为 4 个 ASCII 空格：
+
+```
+小怪在线，你要整点薯条吗？
+频道@XGYYDS789    QQ群1019953986
+```
